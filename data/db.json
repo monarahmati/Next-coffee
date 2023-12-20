@@ -1,0 +1,184 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "title": "Black Coffee",
+      "price": 5,
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "score": 5,
+      "off": 0,
+      "type": "cold",
+      "img": "/img/menu-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Hot Chocolete",
+      "price": 4,
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "score": 4.4,
+      "off": 0,
+      "type": "hot",
+      "img": "/img/menu-2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Ice Cream",
+      "price": 6,
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "score": 4.9,
+      "off": 0,
+      "type": "cold",
+      "img": "/img/menu-3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Tea",
+      "price": 3,
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "score": 5,
+      "off": 0,
+      "type": "hot",
+      "img": "/img/menu-4.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Chocolate Milk",
+      "price": 4,
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "score": 3.1,
+      "off": 50,
+      "type": "hot",
+      "img": "/img/menu-5.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Banana Milk",
+      "price": 12,
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo guberg sea et et lorem dolor",
+      "score": 4.9,
+      "off": 0,
+      "type": "cold",
+      "img": "/img/menu-6.jpeg"
+    }
+  ],
+  "serviceData": [
+    {
+      "id": 1,
+      "title": "Fastest Door Delivery",
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "img": "/img/service-1.jpg",
+      "icon": "faTruck"
+    },
+    {
+      "id": 2,
+      "title": "Best Quality Coffee",
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "img": "/img/service-2.jpg",
+      "icon": "faCoffee"
+    },
+    {
+      "id": 3,
+      "title": "Best Quality Coffee",
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "img": "/img/service-3.jpg",
+      "icon": "faAward"
+    },
+    {
+      "id": 4,
+      "title": "Online Table Booking",
+      "desc": "Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+      "img": "/img/service-4.jpg",
+      "icon": "faTable"
+    }
+  ],
+  "newsletters": [
+    {
+      "id": 2,
+      "email": "amin@gmail.com"
+    },
+    {
+      "id": 1,
+      "email": "amin@gmail.com"
+    },
+    {
+      "email": "kkkkkk",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "username": "Q_Yolme",
+      "productID": 1,
+      "body": "Wonderful coffee ❤️",
+      "profile": "/img/testimonial-1.jpg"
+    },
+    {
+      "id": 2,
+      "username": "Amin Saeedi",
+      "productID": 2,
+      "body": "Perfect coffee 🙋‍♂️❤️",
+      "profile": "/img/testimonial-2.jpg"
+    },
+    {
+      "id": 3,
+      "username": "Sasan Moqaddas",
+      "productID": 1,
+      "body": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita",
+      "profile": "/img/testimonial-3.jpg"
+    },
+    {
+      "id": 4,
+      "username": "Alireza Rezaei",
+      "productID": 2,
+      "body": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita",
+      "profile": "/img/testimonial-4.jpg"
+    },
+    {
+      "id": 5,
+      "username": "Mmd Mohammadi",
+      "productID": 1,
+      "body": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita",
+      "profile": "/img/testimonial-4.jpg"
+    }
+  ],
+  "messages": [
+    {
+      "username": "Amin Saeedi",
+      "email": "amin@gmail.com",
+      "subject": "React Native",
+      "body": "Hi, Please teach react native course 🙏❤️",
+      "id": 1
+    },
+    {
+      "username": "Qadir Yolme",
+      "email": "qYolme@gmail.com",
+      "subject": "Test",
+      "body": "Hi. This is a test message ❤️",
+      "id": 2
+    },
+    {
+      "email": "zzzzzz",
+      "userName": "xxxxxxxx",
+      "subject": "xxxxxxx",
+      "body": "c ",
+      "id": 3
+    }
+  ],
+  "reserve": [
+    {
+      "email": "fgggg",
+      "name": "ee",
+      "date": "hhhh",
+      "time": "rfsh",
+      "id": 1
+    },
+    {
+      "email": "wsedftgh",
+      "name": "sfghjk",
+      "date": "asdfgh",
+      "time": "asdfg",
+      "id": 2
+    }
+  ]
+}
