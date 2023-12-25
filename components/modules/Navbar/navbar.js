@@ -2,35 +2,35 @@ import React, { useEffect, useState } from "react";
 import styles from "@/styles/Navbar.module.css";
 import Link from "next/link";
 
-// Fontawesome
+//Fontawesome
 // import "@fortawesome/fontawesome-svg-core/styles.css";
 // import { config } from "@fortawesome/fontawesome-svg-core";
 // config.autoAddCss = false;
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faSearch } from "@fortawesome/free-solid-svg-icons";
-// import { useRouter } from "next/router";
+import { useRouter } from "next/router";
 
 function Navbar() {
-  //const route = useRouter();
-  //const [search, setSearch] = useState("");
+  const route = useRouter();
+  const [search, setSearch] = useState("");
 
-//   useEffect(() => {
-//     setSearch(route.query.q);
-//   }, []);
+  useEffect(() => {
+    setSearch(route.query.q);
+  }, []);
 
-//   const searchHandlerWithEnter = (event) => {
-//     if (event.keyCode === 13) {
-//       if (search.trim()) {
-//         route.push(`/search?q=${search}`);
-//       }
-//     }
-//   };
+  const searchHandlerWithEnter = (event) => {
+    if (event.keyCode === 13) {
+      if (search.trim()) {
+        route.push(`/search?q=${search}`);
+      }
+    }
+  };
 
-//   const searchHandler = () => {
-//     if (search.trim()) {
-//       route.push(`/search?q=${search}`);
-//     }
-//   };
+  const searchHandler = () => {
+    if (search.trim()) {
+      route.push(`/search?q=${search}`);
+    }
+  };
 
   return (
     <div className={`container-fluid p-0 ${styles.nav_bar}`}>
@@ -40,23 +40,28 @@ function Navbar() {
         <div className="d-flex align-items-center position-relative">
           <Link href="/" className={`${styles.navbar_brand} px-lg-4 m-0`}>
             <h1 className="m-0 display-4 text-uppercase text-white">
-              Venus{" "}Coffee
+              Venus Coffee
             </h1>
           </Link>
 
-          {/* <input
+          <input
             value={search}
-            //onChange={(event) => setSearch(event.target.value)}
+            onChange={(event) => setSearch(event.target.value)}
             onKeyDown={searchHandlerWithEnter}
             type="text"
             className={styles.search_input}
             placeholder="Search..."
           />
-          <FontAwesomeIcon
-            //onClick={searchHandler}
+          {/* <FontAwesomeIcon
+            onClick={searchHandler}
             className={styles.search_icon}
-            //icon={faSearch}
+            icon={faSearch}
           /> */}
+          <div 
+            onClick={searchHandler} 
+            className={styles.search_icon}>
+            *
+          </div>
         </div>
         <button
           type="button"

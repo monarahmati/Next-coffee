@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Card = ({item}) => {
@@ -12,7 +13,10 @@ const Card = ({item}) => {
         <h5 className="menu-price">${" "}{item.price}</h5>
       </div>
       <div className="col-8 col-sm-9">
-        <h4>{item.title}</h4>
+        <Link href={`products/${item.id}`}>
+         <h4>{item.title}</h4>
+        
+        </Link>
         <p className="m-0">
             {item.desc}
         </p>
